@@ -1,0 +1,42 @@
+---
+title: "presentation_test"
+author: esknu
+format: revealjs
+editor: visual
+echo: true
+language: nb.yaml
+---
+
+## Quarto
+
+1.  Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code.
+You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Plot
+
+Slik lager vi plot
+
+```{r}
+#| label: fig-biler
+#| fig-cap: Flott plot av bilers bremselengde
+#| fig-cap-location: bottom
+plot(cars)
+
+```
+
+I @fig-biler er det et flott plot av fart og bremselengde

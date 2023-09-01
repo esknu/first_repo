@@ -1,5 +1,11 @@
 # Mine valg
 *.Rproj
+*.html
+*.pdf
+*.docx
+*.pptx
+*.tex
+*.md
 
 # History files
 .Rhistory
